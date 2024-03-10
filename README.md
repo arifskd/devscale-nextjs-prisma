@@ -1,4 +1,4 @@
-### Template Devscale Project Next.js & Prisma
+### Template Project Next.js & Prisma
 
 Ini adalah contoh template, yang sudah di-setup:
 
@@ -39,8 +39,11 @@ cp .env.example .env
 
 ```bash
 npm run db:migrate
+# or
 yarn run db:migrate
+# or
 pnpm run db:migrate
+# or
 bun run db:migrate
 ```
 
