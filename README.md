@@ -9,14 +9,14 @@ Ini adalah contoh template, yang sudah di-setup:
 - [Prisma](https://prisma.io/)
 - [AWS](https://aws.amazon.com/)
 
-### Environment Variables
+## Environment Variables
 
 - DATABASE_URL
 - AWSS3_ACCESS_KEY
 - AWSS3_SECRET_KEY
 - JWT_SECRET
 
-### How to use it:
+## How to use it:
 
 1. Clone this repo or use as template
 
@@ -57,12 +57,12 @@ npm run db:studio
 
 8. Open http://localhost:5555 with your browser to see the result.
 
-### Deployment
+## Deployment
 
-> [!TIPS]
+> [!TIP]
 > Don't forget adding `prisma generate` to the existing script build command Vercel.
 
-> Vercel UI's build script field
+### Vercel UI's build script field
 
 Another way to configure `prisma generate` to be run on every deployment is to add the command to the build settings via Vercel's UI.
 
