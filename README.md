@@ -1,4 +1,7 @@
-### Template Project Next.js & Prisma
+# 📐 Template Project Next.js & Prisma
+
+> [!NOTE]
+> Template Project Next.js & Prisma for Bootcamp devscale.id (Beginner Class).
 
 Ini adalah contoh template, yang sudah di-setup:
 
@@ -21,12 +24,6 @@ Ini adalah contoh template, yang sudah di-setup:
 
 ```bash
 npm install
-# or
-yarn
-# or
-pnpm install
-# or
-bun install
 ```
 
 3. Create .env file and add environment variables
@@ -37,26 +34,17 @@ cp .env.example .env
 
 4. Do prisma migration
 
+> [!WARNING]
+> This step if the database provider used is `SQLite`, otherwise ignore it.
+
 ```bash
 npm run db:migrate
-# or
-yarn run db:migrate
-# or
-pnpm run db:migrate
-# or
-bun run db:migrate
 ```
 
 5. Run the development server:
 
 ```bash
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
 6. Open http://localhost:3000 with your browser to see the result.
