@@ -5,7 +5,7 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata = {
   title: "Template Next.js & Prisma | Devscale ID",
-  description: "The React Framework for the Web",
+  description: "Template Project Next.js & Prisma for Devscale ID",
   publishedTime: "06-03-2024",
   authors: ["Devscale ID Student"],
   icons: {
