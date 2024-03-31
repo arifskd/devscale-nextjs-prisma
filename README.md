@@ -20,6 +20,22 @@ Ini adalah contoh template, yang sudah di-setup:
 
 1. Clone this repo or use as template
 
+- Clone the repo
+
+```bash
+git clone git@github.com:rezarinaldi/devscale-nextjs-prisma.git
+# at current directory/folder
+git clone git@github.com:rezarinaldi/devscale-nextjs-prisma.git .
+```
+
+- Create project with template
+
+```bash
+npx create-next-app@latest -e git@github.com:rezarinaldi/devscale-nextjs-prisma.git
+# at current directory/folder
+npx create-next-app@latest -e git@github.com:rezarinaldi/devscale-nextjs-prisma.git .
+```
+
 2. Install dependencies
 
 ```bash
@@ -32,7 +48,9 @@ npm install
 cp .env.example .env
 ```
 
-4. Do prisma migration
+4. Create your model in the [schema.prisma](./src/prisma/schema.prisma) file in the [src/prisma](./src/prisma) directory.
+
+5. Do prisma migration
 
 > [!WARNING]
 > This step if the database provider used is `SQLite`, otherwise ignore it.
@@ -41,21 +59,21 @@ cp .env.example .env
 npm run db:migrate
 ```
 
-5. Run the development server:
+6. Run the development server:
 
 ```bash
 npm run dev
 ```
 
-6. Open http://localhost:3000 with your browser to see the result.
+7. Open http://localhost:3000 with your browser to see the result.
 
-7. Do prisma studio
+8. Do prisma studio
 
 ```bash
 npm run db:studio
 ```
 
-8. Open http://localhost:5555 with your browser to see the result.
+9. Open http://localhost:5555 with your browser to see the result.
 
 ## Deployment
 
