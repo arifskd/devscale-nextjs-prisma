@@ -48,7 +48,13 @@ npm install
 cp .env.example .env
 ```
 
-4. Create your model in the [schema.prisma](./src/prisma/schema.prisma) file in the [src/prisma](./src/prisma) directory.
+4. Setting provider database and create database model in the [schema.prisma](./src/prisma/schema.prisma) file.
+
+```bash
+src
+└── prisma
+    └── schema.prisma
+```
 
 5. Do prisma migration
 
