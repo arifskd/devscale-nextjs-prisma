@@ -3,7 +3,7 @@
 > [!NOTE]
 > Template Project Next.js & Prisma for Bootcamp devscale.id (Beginner Class).
 
-Ini adalah contoh template, yang sudah di-setup:
+This is an example template, already set up:
 
 - Example Middleware, go to [middleware.js](./src/middleware.js) file.
 
