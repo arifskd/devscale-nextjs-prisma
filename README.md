@@ -5,6 +5,13 @@
 
 Ini adalah contoh template, yang sudah di-setup:
 
+- Example Middleware, go to [middleware.js](./src/middleware.js) file.
+
+```bash
+src
+└── middleware.js
+```
+
 - [daisyUI](https://daisyui.com/)
 - [Prisma](https://prisma.io/)
 - [AWS](https://aws.amazon.com/)
