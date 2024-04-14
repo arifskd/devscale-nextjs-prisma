@@ -9,7 +9,7 @@ export const metadata = {
   publishedTime: "06-03-2024",
   authors: ["Devscale ID Student"],
   icons: {
-    icon: "/icon.png",
+    icon: "/icon.svg",
   },
 };
 
