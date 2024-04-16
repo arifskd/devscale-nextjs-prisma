@@ -99,10 +99,14 @@ Another way to configure `prisma generate` to be run on every deployment is to a
 
 Within your project's dashboard, go to the `Settings` tab and find the `General` section. In that section you will find a box labeled `Build & Development Settings` that contains an input field named `Build Command`:
 
-![build-command-1](https://www.prisma.io/docs/static/030b77f3b6321d3991b6efcb0fd01c76/cae0a/vercel-ui-build-command.png)
+![build-command-1](public/readme/vercel-ui-build-command.png)
 
 Within that field, prepend `prisma generate` to the existing script:
 
-![build-command-2](https://www.prisma.io/docs/static/b4c1e8914ffea0cb3f46d974dd68300e/cae0a/vercel-ui-build-command-filled.png)
+```bash
+prisma generate && next build
+```
+
+![build-command-2](public/readme/vercel-ui-build-command-filled.png)
 
 Reference: [Vercel build dependency caching workaround](https://www.prisma.io/docs/orm/more/help-and-troubleshooting/help-articles/vercel-caching-issue)
