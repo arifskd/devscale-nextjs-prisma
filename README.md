@@ -38,9 +38,9 @@ git clone git@github.com:rezarinaldi/devscale-nextjs-prisma.git .
 - Create project with template.
 
 ```bash
-npx create-next-app@latest -e git@github.com:rezarinaldi/devscale-nextjs-prisma.git
+npx create-next-app@latest -e https://github.com/rezarinaldi/devscale-nextjs-prisma
 # at current directory/folder
-npx create-next-app@latest -e git@github.com:rezarinaldi/devscale-nextjs-prisma.git .
+npx create-next-app@latest -e https://github.com/rezarinaldi/devscale-nextjs-prisma .
 ```
 
 2. Install dependencies:
