@@ -30,6 +30,11 @@ src
 - Clone the repo.
 
 ```bash
+git clone https://github.com/rezarinaldi/devscale-nextjs-prisma.git
+# at current directory/folder
+git clone https://github.com/rezarinaldi/devscale-nextjs-prisma.git .
+
+# using ssh
 git clone git@github.com:rezarinaldi/devscale-nextjs-prisma.git
 # at current directory/folder
 git clone git@github.com:rezarinaldi/devscale-nextjs-prisma.git .
