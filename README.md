@@ -1,7 +1,7 @@
 # 📐 Template Project Next.js & Prisma
 
 > [!NOTE]
-> Template Project Next.js & Prisma for Bootcamp devscale.id (Beginner Class).
+> Template Project Next.js & Prisma for Bootcamp devscale.id (Beginner Class) Batch 4.
 
 This is an example template, already set up:
 
