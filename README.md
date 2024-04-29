@@ -71,27 +71,33 @@ src
 5. Do prisma migration:
 
 > [!WARNING]
-> This step if the database provider used is `SQLite`, otherwise ignore it.
+> This step if the database provider used is `SQLite`, otherwise ignore it and skip this step.
 
 ```bash
 npm run db:migrate
 ```
 
-6. Run the development server:
+6. Use `db push` to push the initial schema to the database:
+
+```bash
+npm run db:push
+```
+
+7. Run the development server:
 
 ```bash
 npm run dev
 ```
 
-7. Open http://localhost:3000 with your browser to see the result.
+8. Open http://localhost:3000 with your browser to see the result.
 
-8. Do prisma studio:
+9. Do prisma studio:
 
 ```bash
 npm run db:studio
 ```
 
-9. Open http://localhost:5555 with your browser to see the result.
+10. Open http://localhost:5555 with your browser to see the result.
 
 ## Deployment
 
