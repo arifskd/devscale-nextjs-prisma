@@ -1,7 +1,7 @@
-# 📐 Template Project Next.js & Prisma
+# 📐 Template Project Next.js, Prisma, and AWS S3
 
 > [!NOTE]
-> Template Project Next.js & Prisma for Bootcamp devscale.id (Beginner Class) Batch 4.
+> Template Project Next.js, Prisma, and AWS S3 for Bootcamp devscale.id (Beginner Class) Batch 4.
 
 This is an example template, already set up:
 
@@ -14,7 +14,7 @@ src
 
 - [daisyUI](https://daisyui.com/)
 - [Prisma](https://prisma.io/)
-- [AWS](https://aws.amazon.com/)
+- [AWS S3](https://aws.amazon.com/pm/serv-s3)
 
 ## Environment Variables
 
